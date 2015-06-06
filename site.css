@@ -30,6 +30,11 @@ a {
     text-decoration: none;
 }
 
+/* IE8-IE10 put blue borders around image links by default. */
+a img {
+    border: none;
+}
+
 #container {
     width: 850px;
     position: relative;
