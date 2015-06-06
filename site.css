@@ -1,6 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:700);
 @import url(http://fonts.googleapis.com/css?family=IM+Fell+French+Canon);
-@import url(http://fonts.googleapis.com/css?family=Corben);
 
 html { height: 100%; margin: 0; padding: 0; }
 
@@ -45,7 +43,6 @@ a {
 }
 
 #links ul {
-    /*text-align: center;*/
     margin-left: 145px;
     padding-left: 0;
 }
