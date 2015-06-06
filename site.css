@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:700);
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+French+Canon);
+@import url(http://fonts.googleapis.com/css?family=Corben);
+
+html { height: 100%; margin: 0; padding: 0; }
+
+body {
+    background-image: url(bodybg.jpg);
+    background-position: center;
+    background-color: #222;
+    color: #fff;
+    height: 80%; margin: 0; padding: 0;
+}
+
+h1 {
+    font-family: 'IM Fell French Canon', serif;
+    font-weight: normal;
+    font-size: 56pt;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'IM Fell French Canon', sans-serif;
+    font-weight: normal;
+    font-size: 18pt;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    width: 850px;
+    position: relative;
+    top: 220px;
+    margin: 0 auto 0 auto;
+    height: 100%;
+}
+
+#links ul {
+    /*text-align: center;*/
+    margin-left: 125px;
+    padding-left: 0;
+}
+
+#links li {
+    display: inline;
+    padding: 0 16px 0 16px;
+    list-style-type: none;
+}
+
+#identity {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #fff;
+}
+
+#pic {
+    float: left;
+}
