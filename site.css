@@ -40,9 +40,13 @@ a {
     height: 100%;
 }
 
+#heading {
+    margin-left: 160px;
+}
+
 #links ul {
     /*text-align: center;*/
-    margin-left: 125px;
+    margin-left: 145px;
     padding-left: 0;
 }
 
