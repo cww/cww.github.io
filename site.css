@@ -1,6 +1,10 @@
 @import url(//fonts.googleapis.com/css?family=IM+Fell+French+Canon);
 
-html { height: 100%; margin: 0; padding: 0; }
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 body {
     background-image: url(bodybg.jpg);
@@ -8,10 +12,10 @@ body {
     background-color: #222;
     color: #fff;
     height: 80%; margin: 0; padding: 0;
+    font-family: 'IM Fell French Canon', serif;
 }
 
 h1 {
-    font-family: 'IM Fell French Canon', serif;
     font-weight: normal;
     font-size: 56pt;
     margin: 0 0 10px 0;
@@ -19,15 +23,22 @@ h1 {
 }
 
 h2 {
-    font-family: 'IM Fell French Canon', sans-serif;
     font-weight: normal;
     font-size: 18pt;
     margin: 0 0 10px 0;
     padding: 0;
 }
 
+h3 {
+    font-weight: normal;
+    font-size: 22pt;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
 a {
-    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
 }
 
 /* IE8-IE10 put blue borders around image links by default. */
@@ -35,34 +46,69 @@ a img {
     border: none;
 }
 
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.section {
+    padding: 20px 0;
+}
+
+.h-list li {
+    display: inline;
+    padding: 0 16px;
+}
+
+.v-list li {
+    padding: 5px 0;
+}
+
 #container {
     width: 850px;
     position: relative;
-    top: 220px;
-    margin: 0 auto 0 auto;
+    top: 150px;
+    margin: 0 auto;
     height: 100%;
+}
+
+#identity {
+    width: 750px;
+    margin: 0 auto;
 }
 
 #heading {
     margin-left: 160px;
 }
 
-#links ul {
-    margin-left: 145px;
-    padding-left: 0;
+#links {
+    width: 850px;
+    text-align: center;
 }
 
-#links li {
-    display: inline;
-    padding: 0 16px 0 16px;
-    list-style-type: none;
-}
-
-#identity {
-    padding-bottom: 16px;
-    border-bottom: 1px solid #fff;
+#links a {
+    text-decoration: none;
 }
 
 #pic {
     float: left;
+}
+
+#serv li {
+    font-size: 16pt;
+}
+
+#offerings {
+    float: left;
+}
+
+#trusted {
+    float: right;
+}
+
+#trusted li {
+    text-align: right;
 }
